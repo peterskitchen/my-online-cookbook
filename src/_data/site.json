@@ -1,7 +1,7 @@
 {
-    "name": "My Online Cookbook",
-    "metaDescription": "The online cookbook of John Doe",
-    "author": "John Doe",
+    "name": "Peter's Kitchen",
+    "metaDescription": "Matt, Pam, and Peter's best Recipes",
+    "author": "Matt, Pam, and Peter",
     "primaryColor": "#ffdb70",
     "secondaryColor": "#32816e",
     "searchLabel": "Find recipes by name, tag or ingredients",
