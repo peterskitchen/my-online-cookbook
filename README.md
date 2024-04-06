@@ -42,6 +42,7 @@ Go to `/admin` to access the admin interface (this also works locally). You'll n
 * `src/recipes` is your main content, with each recipe saved as a markdown file.
 * Each other page is located at the root of `src/` as its own markdown or nunjucks file.
 
+
 ## 🚀 Hosting on GitHub Pages instead of Netlify
 If you'd rather rely on [GitHub Pages](https://pages.github.com/) for hosting, you can easily configure that instead of Netlify.
 1. Make a new public repository in GitHub, called `<your-GitHub-name>.github.io` and add a `README.md` to it
