@@ -41,3 +41,10 @@ Go to `/admin` to access the admin interface (this also works locally). You'll n
 * `src/img` contains all images. Note that only images placed in `src/img/recipes` are editable from the CMS admin interface.
 * `src/recipes` is your main content, with each recipe saved as a markdown file.
 * Each other page is located at the root of `src/` as its own markdown or nunjucks file.
+
+## Hosting on GitHub Pages instead of Netlify
+If you'd rather rely on [GitHub Pages](https://pages.github.com/) for hosting, you can easily configure that instead of Netlify.
+1. Make a new public project in GitHub, called <your-GitHub-name>.github.io and add a README.md to it
+2. If you've built your site already, delete '_site' and link in your new repo so that the built site files will go there instead. Run 'git submodule add https://github.com/<your-GitHub-name>/<your-GitHub-name>.github.io.git _site', you may need to force it with a -f
+3. Build your site as above, 'npm run build'. This will populate '_site' with your HTML files.
+4. 'cd _site' and then 'git add .' to load up the new files so you can commit and push them. In a few minutes you should be able to see your cookbook on https://<your-GitHub-name>.github.io
